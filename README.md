@@ -273,7 +273,7 @@ Lower values indicate better performance.
 
 | Metric                  | Value            |
 | ----------------------- | ---------------- |
-| Validation SMAPE        | 42.20%           |
+| Validation SMAPE        | 42.50%           |
 | Public Leaderboard Rank | 91               |
 | Training Samples        | 67,499           |
 | Epochs                  | 20               |

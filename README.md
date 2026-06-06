@@ -1,9 +1,5 @@
 # Amazon ML Challenge 2025 – Multimodal Product Price Prediction
 
-## Model Development
-
-Two approaches were evaluated during the competition.
-
 ---
 
 ## Approach 1: Text-Only Transformer

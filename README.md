@@ -43,7 +43,7 @@ flowchart TD
 ### Regression Head
 
 ```text
-1792 (1024+768)
+1024
  ↓
 512
  ↓

@@ -79,7 +79,7 @@ flowchart TD
     A --> C["Product Images"]
 
     B --> D["RoBERTa-Large"]
-    C --> E["Qwen2.5-VL"]
+    C --> E["SigLIP-base-patch-16"]
 
     D --> F["Text Features"]
     E --> G["Visual Features"]
@@ -100,13 +100,13 @@ flowchart TD
 
 ### Components
 
-| Component             | Model          |
-| --------------------- | -------------- |
-| Text Encoder          | RoBERTa-Large  |
-| Vision Encoder        | Qwen2.5-VL     |
-| Fusion Strategy       | Feature Fusion |
-| Regression Head       | Deep MLP       |
-| Target Transformation | log1p(price)   |
+| Component             | Model                |
+| --------------------- | --------------       |
+| Text Encoder          | RoBERTa-Large        |
+| Vision Encoder        | SigLIP-base-patch 16 |
+| Fusion Strategy       | Feature Fusion       |
+| Regression Head       | Deep MLP             |
+| Target Transformation | log1p(price)         |
 
 ### Motivation
 

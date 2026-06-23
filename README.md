@@ -9,16 +9,22 @@ The first submission used only product catalog information.
 ### Architecture
 
 ```mermaid
-flowchart LR
-
+   flowchart TD
     A["Product Dataset"]
-    --> B["Product Title + Description"]
-    --> C["RoBERTa-Large Encoder"]
-    --> D["CLS Embedding (1024-D)"]
-    --> E["Linear Regression"]
-    --> F["Predicted Log Price"]
-    --> G["Inverse Log Transform"]
-    --> H["Final Price Prediction"]
+
+    A --> B["Catalog Content"]
+
+    B --> C["RoBERTa-Large"]
+
+    C --> D["CLS Embedding"]
+
+    D --> E["Linear Regression"]
+
+    E --> F["Predicted Log Price"]
+
+    F --> G["Inverse Log Transform"]
+
+    G --> H["Final Price"]
 ```
 
 ### Configuration
